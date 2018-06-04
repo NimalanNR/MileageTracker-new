@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/add"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/add"
+            android:title="Add Vehicle" />
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/edit"
+            android:title="Edit Vehicle" />
+        <item
+            android:id="@+id/nav_predict"
+            android:icon="@drawable/predict"
+            android:title="Predict Mileage" />
+        <item
+            android:id="@+id/nav_performance"
+            android:icon="@drawable/performance"
+            android:title="Check Performance"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_compareperformance"
+            android:icon="@drawable/compare"
+            android:title="Compare Performance" />
+
+    </group>
+
+
+
+</menu>

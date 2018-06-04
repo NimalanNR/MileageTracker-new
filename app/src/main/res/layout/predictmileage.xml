@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        >
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_current_reading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/input_bikeid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Bike ID" />
+        <Button
+            android:id="@+id/btn_predict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:text="PREDICT"
+            style="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+        <ListView
+            android:id="@+id/lv_milage_prediction"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+   </LinearLayout>
+</RelativeLayout>

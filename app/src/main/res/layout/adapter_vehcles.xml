@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bike_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:text="contact det"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:textColor="@android:color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/mileage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/bike_model"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:text="Name"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/bike_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mileage"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:text="Surname"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
